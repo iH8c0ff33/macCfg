@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tomasr/molokai'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'airblade/vim-gitgutter'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
