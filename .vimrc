@@ -10,10 +10,15 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 Plugin 'tomasr/molokai'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'majutsushi/tagbar'
+Plugin 'Shougo/neocomplcache.vim'
+" Plugin 'ervandew/supertab'
+" Plugin 'vim-scripts/AutoComplPop'
+" Plugin 'Valloric/YouCompleteMe'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
@@ -39,3 +44,6 @@ set encoding=utf-8
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
 set number
+nmap <F8> :TagbarToggle<CR>
+let g:EclimCompletionMethod = 'omnifunc'
+" let g:SuperTabDefaultCompletionType = 'context'
