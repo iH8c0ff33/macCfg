@@ -20,4 +20,4 @@ export LC_NUMERIC="en_US.UTF-8"
 export LC_TIME="en_US.UTF-8"  
 export LC_ALL=
 export EDITOR="vim"
-alias vim="/usr/local/Cellar/macvim/7.4-76/MacVim.app/Contents/MacOS/Vim"
+alias vim="/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim"
