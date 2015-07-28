@@ -19,5 +19,6 @@ export LC_MONETARY="en_US.UTF-8"
 export LC_NUMERIC="en_US.UTF-8"  
 export LC_TIME="en_US.UTF-8"  
 export LC_ALL=
-export EDITOR="vim"
+export VISUAL="vim"
+export EDITOR="$VISUAL"
 alias vim="/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim"
