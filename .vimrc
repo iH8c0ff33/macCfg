@@ -47,3 +47,4 @@ set number
 nmap <F8> :TagbarToggle<CR>
 let g:EclimCompletionMethod = 'omnifunc'
 " let g:SuperTabDefaultCompletionType = 'context'
+let $PAGER=''

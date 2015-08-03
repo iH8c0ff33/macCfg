@@ -23,3 +23,7 @@ export VISUAL="vim"
 export EDITOR="$VISUAL"
 export PATH="$HOME/.bin/:$PATH"
 alias vim="/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim"
+export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
+	vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
+	-c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
+	-c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
