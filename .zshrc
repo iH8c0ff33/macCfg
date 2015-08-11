@@ -11,17 +11,17 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-export LANG="en_US.UTF-8"  
-export LC_COLLATE="en_US.UTF-8"  
-export LC_CTYPE="en_US.UTF-8"  
-export LC_MESSAGES="en_US.UTF-8"  
-export LC_MONETARY="en_US.UTF-8"  
-export LC_NUMERIC="en_US.UTF-8"  
-export LC_TIME="en_US.UTF-8"  
+export LANG="en_US.UTF-8"
+export LC_COLLATE="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+export LC_MESSAGES="en_US.UTF-8"
+export LC_MONETARY="en_US.UTF-8"
+export LC_NUMERIC="en_US.UTF-8"
+export LC_TIME="en_US.UTF-8"
 export LC_ALL=
 export VISUAL="vim"
 export EDITOR="$VISUAL"
-export PATH="$HOME/.bin/:$PATH"
+export PATH="$HOME/.bin:$PATH"
 alias vim="/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim"
 export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
 	vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
