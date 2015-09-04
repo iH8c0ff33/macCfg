@@ -22,4 +22,5 @@ export LC_ALL=
 export VISUAL="vim"
 export EDITOR="$VISUAL"
 export PATH="$HOME/.bin:$PATH"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
 alias vim="/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim"
