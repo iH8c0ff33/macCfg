@@ -22,4 +22,5 @@ export LC_ALL=
 export VISUAL="vim"
 export EDITOR="$VISUAL"
 export GOPATH="$HOME/Documents/go"
-alias vim="/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim"
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+alias vim="/usr/local/Cellar/macvim/7.4-85/MacVim.app/Contents/MacOS/Vim"
