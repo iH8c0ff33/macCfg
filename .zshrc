@@ -23,4 +23,6 @@ export VISUAL="vim"
 export EDITOR="$VISUAL"
 export GOPATH="$HOME/Documents/go"
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+eval `gdircolors ~/.dots/solarized.dircolors`
+alias ls="gls --color=yes"
 alias vim="/usr/local/Cellar/macvim/7.4-85/MacVim.app/Contents/MacOS/Vim"
